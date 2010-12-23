@@ -35,6 +35,7 @@ public class ActMain extends Activity {
         btnTest = (Button)findViewById(R.id.btnTest);
         
         btnTest.setOnClickListener(new OnClickListener() {
+			@Override
 			public void onClick(View v) {
 				tvText.setText(getInfoText(ActMain.this));
 			}

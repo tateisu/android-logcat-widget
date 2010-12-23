@@ -86,6 +86,7 @@ public class SrvLogReader extends Service{
 		public void cancel() {
 			bCancelled = true;
 		}
+		@Override
 		public void run(){
 			try{
 				String[] cmd = new String[]{
